@@ -1,6 +1,7 @@
 import { Reorder } from "@mui/icons-material";
 import React, { useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
+import "./Navbar.css";
 
 function Navbar() {
   const [expandNavbar, setExpandNavbar] = React.useState(false);
