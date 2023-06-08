@@ -12,9 +12,13 @@ function Home() {
             I am a dedicated and enthusiastic third-year undergraduate student
             with a passion for learning and creating.
           </p>
-          <LinkedIn />
+          <a href="https://www.linkedin.com/in/abhishek-anand-284a9520a/">
+            <LinkedIn />
+          </a>
           <Email />
-          <GitHub />
+          <a href="https://github.com/picturepatch07">
+            <GitHub />
+          </a>
         </div>
       </div>
       <div className="skills">
