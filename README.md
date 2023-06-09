@@ -29,12 +29,6 @@ This is my personal portfolio website, built using React and Material-UI. It sho
 
 Contributions are welcome! If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request. Make sure to follow the project's code of conduct.
 
-## Contact
-
-- Email: anand2000ys@gmail.com
-- LinkedIn: https://www.linkedin.com/in/abhishek-anand-284a9520a/
-- Portfolio: [portfolio-red-six-15.vercel.app](https://portfolio-red-six-15.vercel.app/)
-
 Feel free to reach out if you have any questions, feedback, or collaboration opportunities!
 
 ---
