@@ -11,7 +11,7 @@ function Project() {
         {ProjectList.map((project, idx) => {
           return (
             <ProjectItem
-              key={idx}
+              id={idx}
               image={project.image}
               name={project.name}
               link={project.link}

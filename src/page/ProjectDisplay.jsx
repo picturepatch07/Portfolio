@@ -2,6 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { ProjectList } from "../helper/ProjectList";
 import { GitHub } from "@mui/icons-material";
+import "./ProjectDisplay.css";
 
 function ProjectDisplay() {
   const { id } = useParams();
