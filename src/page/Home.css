@@ -3,6 +3,7 @@
   align-items: center;
   font-family: "Arial", sans-serif;
   color: #e9d35b;
+  margin-bottom: -13rem;
 }
 
 .about {
@@ -42,6 +43,7 @@
   flex-direction: column;
   align-items: center;
   background-color: #222222;
+  padding-bottom: 5rem;
 }
 
 .skills h1 {
