@@ -8,19 +8,30 @@
   background-color: #222222;
   margin-bottom: -12.5rem;
 }
+
+.projects > h1 {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: bolder;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 .projects .projectTitle {
   text-align: center;
-  color: #3e497a;
+  color: #ffffff;
   font-size: 60px;
   font-weight: bolder;
 }
 
 .projectList {
+  color: #ffffff;
   width: 70vw;
   height: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   place-items: center;
+  margin-bottom: 80px;
 }
 
 /* MENU ITEM STYLING */
