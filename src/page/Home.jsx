@@ -2,11 +2,6 @@ import { Email, GitHub, LinkedIn } from "@mui/icons-material";
 import React from "react";
 import "./Home.css";
 import { useState, useEffect } from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/header-img.svg";
-// import { ArrowRightCircle } from "react-bootstrap-icons";
-import "animate.css";
-import TrackVisibility from "react-on-screen";
 
 function Home() {
   const [loopNum, setLoopNum] = useState(0);
@@ -14,7 +9,7 @@ function Home() {
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Web Developer", "Web Designer", "UI/UX Designer"];
+  const toRotate = ["Abhishek", "Abhishek", "Abhishek"];
   const period = 2000;
 
   useEffect(() => {
@@ -54,92 +49,50 @@ function Home() {
     }
   };
   return (
-    // <div className="home">
-    //   <div className="about">
-    //     <h2>Hi, My Name is Abhishek</h2>
-    //     <div className="prompt">
-    //       <p>
-    //         I am a dedicated and enthusiastic third-year undergraduate student
-    //         with a passion for learning and creating.
-    //       </p>
-    //       <a href="https://www.linkedin.com/in/abhishek-anand-284a9520a/">
-    //         <LinkedIn />
-    //       </a>
-    //       <Email />
-    //       <a href="https://github.com/picturepatch07">
-    //         <GitHub />
-    //       </a>
-    //     </div>
-    //   </div>
-    //   <div className="skills">
-    //     <h1>Skills</h1>
-    //     <ol className="list">
-    //       <li className="item">
-    //         <h2>Front-End</h2>
-    //         <span>
-    //           React.js, Vue.js, HTML, CSS, React Native, NPM, Bootstrap,
-    //           MaterialUI
-    //         </span>
-    //       </li>
-    //       <li className="item">
-    //         <h2>Languages</h2>
-    //         <span>JavaScript, TypeScript, Java, C++, C, Python</span>
-    //       </li>
-    //     </ol>
-    //   </div>
-    // </div>
-    <section className="banner" id="home">
-      <Container>
-        <Row className="aligh-items-center">
-          <Col xs={12} md={6} xl={7}>
-            <TrackVisibility>
-              {({ isVisible }) => (
-                <div
-                  className={
-                    isVisible ? "animate__animated animate__fadeIn" : ""
-                  }
-                >
-                  <span className="tagline">Welcome to my Portfolio</span>
-                  <h1>
-                    {`Hi! I'm Judy`}{" "}
-                    <span
-                      className="txt-rotate"
-                      dataPeriod="1000"
-                      data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'
-                    >
-                      <span className="wrap">{text}</span>
-                    </span>
-                  </h1>
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
-                  </p>
-                  <button onClick={() => console.log("connect")}>
-                    Let’s Connect
-                  </button>
-                </div>
-              )}
-            </TrackVisibility>
-          </Col>
-          <Col xs={12} md={6} xl={5}>
-            <TrackVisibility>
-              {({ isVisible }) => (
-                <div
-                  className={
-                    isVisible ? "animate__animated animate__zoomIn" : ""
-                  }
-                >
-                  <img src={headerImg} alt="Header Img" />
-                </div>
-              )}
-            </TrackVisibility>
-          </Col>
-        </Row>
-      </Container>
-    </section>
+    <div className="home">
+      <div className="about">
+        {/* <h2>Hi, My Name is Abhishek</h2> */}
+        <h1>
+          {`Hi! I'm`}{" "}
+          <span
+            className="txt-rotate"
+            dataPeriod="1000"
+            data-rotate='[ "Abhishek", "Abhishek", "Abhishek" ]'
+          >
+            <span className="wrap">{text}</span>
+          </span>
+        </h1>
+        <div className="prompt">
+          <p>
+            I am a dedicated and enthusiastic third-year undergraduate student
+            with a passion for learning and creating.
+          </p>
+          <a href="https://www.linkedin.com/in/abhishek-anand-284a9520a/">
+            <LinkedIn />
+          </a>
+          <Email />
+          <a href="https://github.com/picturepatch07">
+            <GitHub />
+          </a>
+        </div>
+      </div>
+      <div className="skills">
+        <h1>Skills</h1>
+        <ol className="list">
+          <li className="item">
+            <h2>Front-End</h2>
+            <span>
+              React.js, Vue.js, HTML, CSS, React Native, NPM, Bootstrap,
+              MaterialUI
+            </span>
+          </li>
+          <li className="item">
+            <h2>Languages</h2>
+            <span>JavaScript, TypeScript, Java, C++, C, Python</span>
+          </li>
+        </ol>
+      </div>
+    </div>
   );
 }
 
