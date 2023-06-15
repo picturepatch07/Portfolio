@@ -34,32 +34,51 @@ function Skill() {
           <div className="row">
             <div className="col-12">
               <div className="skill-bx wow zoomIn">
-                <h2>Skills</h2>
+                <h1>Skills</h1>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry.<br></br> Lorem Ipsum has been the
-                  industry's standard dummy text.
+                  Highly proficient in technologies such as HTML5, CSS and
+                  JavaScript, <br />
+                  with expertise in framework like React JS, Bootstrap, Material
+                  UI, Tailwind CSS, etc. <br />I have also worked on backend
+                  technologies like Node JS, Express JS, MongoDB, etc. <br />I
+                  have also worked on various other technologies like Git,
+                  GitHub, Heroku, Netlify, etc.
                 </p>
                 <Carousel
                   responsive={responsive}
                   infinite={true}
+                  autoPlay={true}
+                  autoPlaySpeed={3000}
+                  arrows={false}
                   className="owl-carousel owl-theme skill-slider"
                 >
                   <div className="item">
                     <img src={meter1} alt="Image" />
-                    <h5>Web Development</h5>
-                  </div>
-                  <div className="item">
-                    <img src={meter2} alt="Image" />
-                    <h5>Brand Identity</h5>
+                    <h5>HTML</h5>
                   </div>
                   <div className="item">
                     <img src={meter3} alt="Image" />
-                    <h5>Logo Design</h5>
+                    <h5>CSS</h5>
                   </div>
                   <div className="item">
-                    <img src={meter1} alt="Image" />
-                    <h5>Web Development</h5>
+                    <img src={meter2} alt="Image" />
+                    <h5>JavaScript</h5>
+                  </div>
+                  <div className="item">
+                    <img src={meter3} alt="Image" />
+                    <h5>React.js</h5>
+                  </div>
+                  <div className="item">
+                    <img src={meter3} alt="Image" />
+                    <h5>Node JS</h5>
+                  </div>
+                  <div className="item">
+                    <img src={meter2} alt="Image" />
+                    <h5>Express JS</h5>
+                  </div>
+                  <div className="item">
+                    <img src={meter3} alt="Image" />
+                    <h5>MongoDB</h5>
                   </div>
                 </Carousel>
               </div>
