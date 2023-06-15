@@ -13,6 +13,7 @@ This is my personal portfolio website, built using React and Material-UI. It sho
 
 - React.js: JavaScript library for building user interfaces
 - Material-UI: React UI framework for designing modern and responsive interfaces
+- BootStrap: React UI framework
 - HTML5 and CSS3: Markup and styling languages for structuring and designing web pages
 - JavaScript: Programming language for adding interactivity and functionality
 - Git: Version control system for tracking changes and collaborating with others
