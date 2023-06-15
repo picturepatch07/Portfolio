@@ -6,6 +6,7 @@ import Experience from "./page/Experience";
 import Navbar from "./Components/NavbarSection/Navbar";
 import Footer from "./Components/FooterSection/Footer";
 import ProjectDisplay from "./page/ProjectDisplay";
+import React from "react";
 
 function App() {
   return (
