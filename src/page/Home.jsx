@@ -2,6 +2,7 @@ import { Email, GitHub, LinkedIn } from "@mui/icons-material";
 import React from "react";
 import "./Home.css";
 import { useState, useEffect } from "react";
+import Skill from "./Skill";
 
 function Home() {
   const [loopNum, setLoopNum] = useState(0);
@@ -76,7 +77,7 @@ function Home() {
           </a>
         </div>
       </div>
-      <div className="skills">
+      {/* <div className="skills">
         <h1>Skills</h1>
         <ol className="list">
           <li className="item">
@@ -91,7 +92,8 @@ function Home() {
             <span>JavaScript, TypeScript, Java, C++, C, Python</span>
           </li>
         </ol>
-      </div>
+      </div> */}
+      <Skill />
     </div>
   );
 }
