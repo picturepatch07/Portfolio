@@ -40,44 +40,42 @@ function Skill() {
                   JavaScript, <br />
                   with expertise in framework like React JS, Bootstrap, Material
                   UI, Tailwind CSS, etc. <br />I have also worked on backend
-                  technologies like Node JS, Express JS, MongoDB, etc. <br />I
-                  have also worked on various other technologies like Git,
-                  GitHub, Heroku, Netlify, etc.
+                  technologies like Node JS, Express JS, MongoDB, etc. <br />
                 </p>
                 <Carousel
                   responsive={responsive}
                   infinite={true}
                   autoPlay={true}
-                  autoPlaySpeed={3000}
+                  autoPlaySpeed={4000}
                   arrows={false}
                   className="owl-carousel owl-theme skill-slider"
                 >
                   <div className="item">
-                    <img src={meter1} alt="Image" />
+                    <img src={meter1} alt="HTML" />
                     <h5>HTML</h5>
                   </div>
                   <div className="item">
-                    <img src={meter3} alt="Image" />
+                    <img src={meter3} alt="CSS" />
                     <h5>CSS</h5>
                   </div>
                   <div className="item">
-                    <img src={meter2} alt="Image" />
+                    <img src={meter2} alt="JS" />
                     <h5>JavaScript</h5>
                   </div>
                   <div className="item">
-                    <img src={meter3} alt="Image" />
+                    <img src={meter3} alt="React" />
                     <h5>React.js</h5>
                   </div>
                   <div className="item">
-                    <img src={meter3} alt="Image" />
+                    <img src={meter3} alt="Node" />
                     <h5>Node JS</h5>
                   </div>
                   <div className="item">
-                    <img src={meter2} alt="Image" />
+                    <img src={meter2} alt="Express" />
                     <h5>Express JS</h5>
                   </div>
                   <div className="item">
-                    <img src={meter3} alt="Image" />
+                    <img src={meter3} alt="MongoDB" />
                     <h5>MongoDB</h5>
                   </div>
                 </Carousel>
@@ -85,7 +83,11 @@ function Skill() {
             </div>
           </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+        <img
+          className="background-image-left"
+          src={colorSharp}
+          alt="Background"
+        />
       </section>
     </div>
   );
