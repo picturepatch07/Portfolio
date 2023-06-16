@@ -83,11 +83,11 @@ function Skill() {
             </div>
           </div>
         </div>
-        <img
+        {/* <img
           className="background-image-left"
           src={colorSharp}
           alt="Background"
-        />
+        /> */}
       </section>
     </div>
   );
