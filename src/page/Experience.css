@@ -10,3 +10,13 @@
 .vertical-timeline-element--work {
   border-top: 0.1rem solid #e9d35b;
 }
+
+.vertical-timeline-element-content .vertical-timeline-element-date {
+  color: #e9d35b;
+}
+
+@media only screen and (max-width: 1100px) {
+  .vertical-timeline-element-content .vertical-timeline-element-date {
+    color: #000000;
+  }
+}

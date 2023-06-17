@@ -39,8 +39,10 @@ function Skill() {
                   Highly proficient in technologies such as HTML5, CSS and
                   JavaScript, <br />
                   with expertise in framework like React JS, Bootstrap, Material
-                  UI, Tailwind CSS, etc. <br />I have also worked on backend
-                  technologies like Node JS, Express JS, MongoDB, etc. <br />
+                  UI, Tailwind CSS
+                  <br />I have also worked on backend technologies like Node JS,
+                  Express JS, MongoDB
+                  <br />
                 </p>
                 <Carousel
                   responsive={responsive}
