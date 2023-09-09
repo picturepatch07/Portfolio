@@ -37,7 +37,7 @@ function Experience() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2023 - Present"
+          date="May 2023 - Aug 2023"
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<WorkIcon />}
         >
@@ -48,12 +48,23 @@ function Experience() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2023 - Present"
+          date="May 2023 - July 2023"
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
             Contributor - Social Summer of Code
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">Remote</h4>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Aug 2023 - Present"
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Web Developer - Social Winter of Code
           </h3>
           <h4 className="vertical-timeline-element-subtitle">Remote</h4>
         </VerticalTimelineElement>

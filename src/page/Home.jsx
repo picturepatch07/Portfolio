@@ -65,7 +65,7 @@ function Home() {
         </h1>
         <div className="prompt">
           <p>
-            I am a dedicated and enthusiastic third-year undergraduate student
+            I am a dedicated and enthusiastic final-year undergraduate student
             with a passion for learning and creating.
           </p>
           <a href="https://www.linkedin.com/in/abhishek-anand-284a9520a/">
