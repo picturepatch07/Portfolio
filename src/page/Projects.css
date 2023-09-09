@@ -8,6 +8,7 @@
   background-color: #222222;
   margin-bottom: -12.5rem;
   /* background: linear-gradient(90.21deg, #5d1942 -5.91%, #483698 111.58%); */
+  overflow: hidden;
 }
 
 .projects > h1 {
@@ -16,6 +17,16 @@
   font-weight: bolder;
   margin-top: 50px;
   margin-bottom: 50px;
+  animation: bounce 1s infinite alternate;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
 }
 
 .projects .projectTitle {
